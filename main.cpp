@@ -1,9 +1,8 @@
-#include <iostream>
-#include "Baralla.h"
-#include "Cara.h"
-using namespace std;
+#include "Joc.h"
 
-int main(){
-  Baralla baralla = new Baralla();
+int main() {
+  Joc joc;
+  joc.iniciar();
+  joc.jugar();
   return 0;
 }
